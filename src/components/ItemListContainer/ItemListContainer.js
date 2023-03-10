@@ -12,7 +12,6 @@ const ItemListContainer = ({ greeting }) => {
             <p>{greeting}</p>
 
             <Button variant='dark'>Click me</Button>
-            <Button variant='light' size='sm'>Click me</Button>
         </div>
     )
 }
