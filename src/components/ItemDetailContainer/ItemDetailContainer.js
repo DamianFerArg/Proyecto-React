@@ -19,7 +19,7 @@ const ItemDetailContainer = () => {
 
         pedirDatos()
             .then((res) => {
-                setItem( res.find((prod) => prod.id === Number(itemId)) )
+                setItem(res.find((prod) => prod.id === Number(itemId)) )
             })
             .finally(() => {
                 setLoading(false)
@@ -30,7 +30,7 @@ const ItemDetailContainer = () => {
         <div className="container my-5">
             {
                 loading
-                    ? <h2>Cargando...</h2>
+                    ? <h2>loading...</h2>
                     : <ItemDetail item={item}/>
             }
         </div>
