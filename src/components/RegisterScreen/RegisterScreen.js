@@ -24,7 +24,7 @@ const RegisterScreen = () => {
     }
 
     return (
-        <div className="login-container">
+        <div className="login-container" >
             <div className="login">
                 <h2>Registrarme</h2>
                 <hr/>
