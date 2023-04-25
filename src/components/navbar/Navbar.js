@@ -13,13 +13,13 @@ export const Navbar = ({red}) => {
             <div className="header__container">
                 <img src={logo} className="header__logo" alt='logo'/>
 
-                <nav className="navbar">
-                    <Link to='/' className="navbar__link">Inicio</Link>
-                    <Link to='/productos/tops' className="navbar__link">tops</Link>
-                    <Link to='/productos/vestidos' className="navbar__link">vestidos</Link>
-                    <Link to='/productos/pantalones' className="navbar__link">pantalones</Link>
-                    <Link to='/productos/polleras' className="navbar__link">polleras</Link>
-                    <Link to='/productos/accesorios' className="navbar__link">accesorios</Link>
+                <nav className="Navbar">
+                    <Link to='/' className="Navbar__link">Inicio</Link>
+                    <Link to='/productos/tops' className="Navbar__link">tops</Link>
+                    <Link to='/productos/vestidos' className="Navbar__link">vestidos</Link>
+                    <Link to='/productos/pantalones' className="Navbar__link">pantalones</Link>
+                    <Link to='/productos/polleras' className="Navbar__link">polleras</Link>
+                    <Link to='/productos/accesorios' className="Navbar__link">accesorios</Link>
                 </nav>
 
                 <CartWidget />
