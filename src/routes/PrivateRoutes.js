@@ -1,4 +1,4 @@
-import { Navbar } from "../components/Navbar/Navbar.js";
+import { Navbar } from "../components/navbar/Navbar.js";
 import ItemListContainer from '../components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from '../components/ItemDetailContainer/ItemDetailContainer';
 import Cart from '../components/Cart/Cart';
