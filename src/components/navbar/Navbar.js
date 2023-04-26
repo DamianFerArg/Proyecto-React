@@ -9,17 +9,17 @@ export const Navbar = ({red}) => {
     const { user, logout } = useContext(LoginContext)
 
     return (
-        <header className="header" style={{backgroundColor: red ? 'red' : ' rgb(196, 140, 207)'}}>
+        <header className="header" style={{backgroundColor: red ? 'red' : ' rgb(89, 0, 4)'}}>
             <div className="header__container">
                 <img src={logo} className="header__logo" alt='logo'/>
 
                 <nav className="Navbar">
                     <Link to='/' className="Navbar__link">Inicio</Link>
-                    <Link to='/productos/tops' className="Navbar__link">tops</Link>
-                    <Link to='/productos/vestidos' className="Navbar__link">vestidos</Link>
-                    <Link to='/productos/pantalones' className="Navbar__link">pantalones</Link>
-                    <Link to='/productos/polleras' className="Navbar__link">polleras</Link>
-                    <Link to='/productos/accesorios' className="Navbar__link">accesorios</Link>
+                    <Link to='/productos/remeras' className="Navbar__link">Remeras</Link>
+                    <Link to='/productos/pantalones' className="Navbar__link">Pantalones</Link>
+                    <Link to='/productos/buzos' className="Navbar__link">Buzos</Link>
+                    <Link to='/productos/gorras' className="Navbar__link">Gorras</Link>
+                    <Link to='/productos/camperas' className="Navbar__link">Camperas</Link>
                 </nav>
 
                 <CartWidget />

@@ -25,7 +25,7 @@ const LoginScreen = () => {
     }
 
     return (
-        <div className="login-container" style={{backgroundColor: ' rgb(196, 140, 207)'}}>
+        <div className="login-container" style={{backgroundColor: ' rgb(89, 0, 4)'}}>
             <div className="login">
                 <h2>Login</h2>
                 <hr/>
